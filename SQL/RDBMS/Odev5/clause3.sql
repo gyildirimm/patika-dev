@@ -1,4 +1,4 @@
-dvdrental=# SELECT * FROM customer
-dvdrental-# WHERE store_id = 1 
-dvdrental-# ORDER BY last_name DESC
-dvdrental-# LIMIT 4;
+SELECT * FROM customer
+WHERE store_id = 1 
+ORDER BY last_name DESC
+LIMIT 4;

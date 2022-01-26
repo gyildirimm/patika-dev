@@ -1,5 +1,5 @@
-dvdrental=# SELECT * FROM film
-dvdrental-# WHERE title LIKE '%n'
-dvdrental-# ORDER BY length
-dvdrental-# OFFSET 5
-dvdrental-# LIMIT 5;
+SELECT * FROM film
+WHERE title LIKE '%n'
+ORDER BY length
+OFFSET 5
+LIMIT 5;
